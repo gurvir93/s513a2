@@ -237,7 +237,7 @@ function mostFrequentWords(string) {
         );
 
         // Count frequency of words, store into new array as object so it cam be sorted
-        for (let i = 0; i < wordArray.length-1; i++)
+        for (let i = 0; i < wordArray.length; i++)
         {
             if(count === 0) {
                 count++;
